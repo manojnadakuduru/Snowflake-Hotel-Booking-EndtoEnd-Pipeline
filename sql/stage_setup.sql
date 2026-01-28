@@ -1,0 +1,10 @@
+CREATE DATABASE HOTEL_DB;
+
+CREATE OR REPLACE FILE FORMAT csv_file_format
+TYPE = 'CSV'
+SKIP_HEADER = 1
+FIELD_OPTIONALLY_ENCLOSED_BY = '"'
+NULL_IF = ('NULL','null','');
+
+CREATE OR REPLACE STAGE hotel_booking_stage
+FILE_FORMAT = csv_file_format;
