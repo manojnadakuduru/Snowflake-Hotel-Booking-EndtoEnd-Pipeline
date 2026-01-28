@@ -32,7 +32,8 @@ The hotel management team needs a clear, reliable view of booking and revenue pe
 
 ## 3. Architecture Overview
 
-![Dashboard Preview](https://github.com/manojnadakuduru/Snowflake-Hotel-Booking-EndtoEnd-Pipeline/architecture/ArchitectureDiagram.png)
+![Dashboard Preview](https://github.com/manojnadakuduru/Snowflake-Hotel-Booking-EndtoEnd-Pipeline/blob/mainarchitecture/ArchitectureDiagram.png)
+
 
 The pipeline follows a Snowflake-based Medallion Architecture.
 
